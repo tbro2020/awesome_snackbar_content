@@ -37,7 +37,7 @@ class AwesomeSnackbarContent extends StatelessWidget {
   /// if you want to customize the font size of the message
   final double? messageFontSize;
 
-  Function? onPressed;
+  final Function? onPressed;
 
   const AwesomeSnackbarContent({
     Key? key,
